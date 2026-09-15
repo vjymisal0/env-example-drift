@@ -1,0 +1,39 @@
+{
+  "name": "env-example-drift",
+  "version": "0.1.0",
+  "description": "Check that .env and .env.example contain the same variable names.",
+  "type": "module",
+  "bin": {
+    "env-example-drift": "bin/env-example-drift.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node bin/env-example-drift.js --example .env.example --env .env"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "env-example",
+    "configuration",
+    "cli",
+    "ci"
+  ],
+  "author": "Vijay Misal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjymisal0/env-example-drift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vjymisal0/env-example-drift/issues"
+  },
+  "homepage": "https://github.com/vjymisal0/env-example-drift#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
