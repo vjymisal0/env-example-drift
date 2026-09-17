@@ -1,6 +1,6 @@
 {
   "name": "env-example-drift",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Check that .env and .env.example contain the same variable names.",
   "type": "module",
   "bin": {

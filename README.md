@@ -44,3 +44,15 @@ Teams often update `.env` locally and forget to update `.env.example`, or add a 
 ## License
 
 MIT
+
+## API
+
+The `env-example-drift` CLI compares variable names in `.env` and `.env.example` and exits non-zero when they differ.
+
+```sh
+npx env-example-drift --example .env.example --env .env
+```
+
+## Limitations
+
+Values are not compared, and dotenv files are parsed for variable names only. Never commit real secrets.
